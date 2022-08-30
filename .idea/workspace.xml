@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fc04efb-c475-441b-b817-5278298e03c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CSPOH/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CSPOH/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/service/StudentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSPOH/src/main/java/com/example/CSPOH/service/StudentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Appbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Student.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Signin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/FeaturedPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/MainFeaturedPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/Sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/blog-post.1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/blog-post.2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home/blog-post.3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DohPdbRcPNF4eZK1v9GhFjzIUg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/tonsonwang/Desktop/Coding stuff/Work Space/CPCOH_Project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc04efb-c475-441b-b817-5278298e03c3" name="Changes" comment="" />
+      <created>1661371321973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661371321973</updated>
+    </task>
+    <servers />
+  </component>
+</project>
