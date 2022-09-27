@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Signup from './pages/Signup'
-import Test from './pages/Test'
-import Blog from './pages/home/Blog'
-import Signin from './pages/Signin'
-import ChatRoom from './pages/ChatRoom';
+import Signup from './pages/signup/Signup'
+import Signin from './pages/signin/Signin'
+import ChatRoom from './pages/chatroom/ChatRoom';
 import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home'
+import Calender from './pages/home/components/Calender'
 
 
  function App() {
@@ -13,10 +13,10 @@ import { Route, Routes } from 'react-router-dom';
     <div className="App">
         <Routes>
           <Route path="/Signup" element={<Signup/>} />
-          <Route path="/home" element={<Blog/>} />
           <Route path="/Signin" element={<Signin/>} />
-          <Route path="/Test" element={<Test/>} />
-          <Route  path="/Chat" element={<ChatRoom/>} />
+          <Route path="/Home" element={<Home/>} />
+          <Route path="/Chat" element={<ChatRoom/>} />
+          <Route path="/Test" element={<Calender/>} />
         </Routes>
     </div>
   );

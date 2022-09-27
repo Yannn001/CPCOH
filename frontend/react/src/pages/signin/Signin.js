@@ -65,7 +65,7 @@ export default function Signin() {
   // const[verify,setverify]=useState([])
 
   const handleClick=(e)=>{
-    e.preventDefault()
+    
     const verify={email,password}
     console.log(verify)
     fetch("http://localhost:8080/student/verify/"+email+"/"+password,{

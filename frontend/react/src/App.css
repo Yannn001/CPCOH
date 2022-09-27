@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,189 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ---------------CALENDER-START----------------- */
+
+.calender {
+  position: relative;
+  /* http://localhost:3000/homeackground-image: url("https://get.pxhere.com/photo/landscape-tree-nature-path-grass-plant-sunset-trail-field-sunlight-morning-leaf-fall-autumn-park-soil-season-rural-area-natural-environment-99101.jpg"); */
+}
+
+.left-event-container {
+  /* background: #222; */
+  background-color: rgb(255, 254, 254);
+  justify-content: center;
+  padding: 25px 48px;
+  box-shadow: 0 10px 0px -8px rgb(255, 255, 255);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 35%;
+  float: left;
+  margin-left: 100px;
+  position: relative;
+}
+
+.left-event-container .book-info {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+  align-items: center;
+}
+
+.left-event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.left-event-container .event-info {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.right-event-container {
+  
+  padding: 25px 48px;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 0 4px 0px -8px rgb(255, 255, 255);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 35%;
+  float: right;
+  margin-right: 100px;
+  position: relative;
+}
+
+.right-event-container .book-info {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.right-event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.book-info .pic {
+  width:500px;
+  height:250px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.event .event-left {
+  min-width: 82px;
+  height:120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+  position: relative;
+}
+
+.event .event-left .date {
+  background: rgb(168,151,127);
+  border-radius: 8px 8px 0px 0px;
+  padding: 10px 10px;
+  font-size: 56px;
+  position: relative;
+}
+
+.event .event-left .month {
+  background: rgb(141, 126, 106);
+  border-radius: 0px 0px 8px 8px;
+  font-size: 16px;
+  font-weight: normal;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.event .event-right {
+  /* background: #222; */
+  display: flex;
+  height:120px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.event .event-right h3.event-title {
+  font-size: 18px;
+  margin: 12px 0px 0px 0px;
+  color: rgb(130,47,14);
+  text-transform: uppercase;
+  position: relative;
+}
+
+.event .event-right .event-description {
+  font-size: 15px;
+  margin: 0px 0px 0px 0px;
+  font-family: '微軟正黑體';
+}
+
+.event .event-right .event-timing {
+  background: rgb(247,224,206);
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  /* width: 100px; */
+  padding: 0px;
+  border-radius: 16px;
+  margin: 2px 0px;
+  font-size: 14px;
+  position: relative;
+}
+
+.event .event-right .event-timing img {
+  height: 20px;
+  padding-right: 8px;
+  position: relative;
+}
+
+@media (max-width: 550px) {
+  .event {
+    flex-direction: column;
+  }
+
+  .event .event-left {
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+  }
+
+  .event .event-left .event-date .date,
+  .event .event-left .event-date .month {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .event .event-left .event-date {
+    padding: 10px 0;
+  }
+}
+/* ---------------CALENDER-END----------------- */
+
